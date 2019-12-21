@@ -9,14 +9,14 @@
         <relativePath/> <!-- lookup parent from repository -->
     </parent>
     <groupId>com.test</groupId>
-    <artifactId>movie-catalog-service</artifactId>
+    <artifactId>movie-catalog-service-t</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>movie-catalog-service</name>
+    <name>movie-catalog-service-t</name>
     <description>Demo project for Spring Boot</description>
 
     <properties>
         <java.version>1.8</java.version>
-        <spring-cloud.version>Hoxton.RELEASE</spring-cloud.version>
+        <spring-cloud.version>Greenwich.RELEASE</spring-cloud.version>
     </properties>
 
     <dependencies>

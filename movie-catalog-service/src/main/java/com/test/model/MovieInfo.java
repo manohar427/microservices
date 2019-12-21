@@ -1,38 +1,49 @@
 package com.test.model;
 
 public class MovieInfo {
-    private String name;
-    private String movieId;
+    private String title;
+    private String overview;
+    private String id;
 
     public MovieInfo() {
     }
 
-    public MovieInfo(String name, String movieId) {
-        this.name = name;
-        this.movieId = movieId;
+    public MovieInfo(String title, String overview, String id) {
+        this.title = title;
+        this.overview = overview;
+        this.id = id;
     }
 
-    public String getName() {
-        return name;
+    public String getTitle() {
+        return title;
     }
 
-    public void setName(String name) {
-        this.name = name;
+    public void setTitle(String title) {
+        this.title = title;
     }
 
-    public String getMovieId() {
-        return movieId;
+    public String getOverview() {
+        return overview;
     }
 
-    public void setMovieId(String movieId) {
-        this.movieId = movieId;
+    public void setOverview(String overview) {
+        this.overview = overview;
+    }
+
+    public String getId() {
+        return id;
+    }
+
+    public void setId(String id) {
+        this.id = id;
     }
 
     @Override
     public String toString() {
         return "MovieInfo{" +
-                "name='" + name + '\'' +
-                ", movieId='" + movieId + '\'' +
+                "title='" + title + '\'' +
+                ", overview='" + overview + '\'' +
+                ", id='" + id + '\'' +
                 '}';
     }
 }
